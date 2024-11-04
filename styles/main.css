@@ -125,4 +125,28 @@
             width: calc(50% - 2 * var(--margin));
         }
     }
+    .page__sleva{
+        background-color: var(--gray);
+        color: var(--light);
+        text-align: center;
+        font-weight: 700;
+        padding: 3em;
+        background-size: cover;
+        margin: 1em;
+        font-size: 0.9em;
+    }
+    .page__sleva--stredni{
+        font-size: 4em;
+    }
+    .page__sleva--velky{
+        font-size: 7em;
+    }
+    .button--black{
+        background-color: var(--light);
+        color: var(--black);
+    }
+    .button--black:hover{
+        background-color: var(--black);
+        color: var(--light);
+    }
 }
